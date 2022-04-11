@@ -1,4 +1,4 @@
-
+import random
 
 # 1.  Użytkownik ma zadeklarować czy zgaduje on, czy komputer
 # 1a. Jeżeli gra komputer, użytkownik musi zdeklarować liczbę;
@@ -7,6 +7,11 @@
 # 3. W każdym przypadku program ma obsłużyć możliwe błędy gry;
 # 4. Gra ma być zaimpelmentowana we Flasku
 
+def Guess_the_number(scope_of_min_numbers, scope_of_max_numbers):
+    draw = random.randint(scope_of_min_numbers, scope_of_max_numbers)
+    print('the number drawn was: ', draw)
+
+    
 if __name__ == '__main__':
     while True:
         try:
@@ -15,3 +20,5 @@ if __name__ == '__main__':
             break
         except ValueError or NameError:
             print("You should have given either an int")
+
+Guess_the_number(scope_of_min_numbers, scope_of_max_numbers)
