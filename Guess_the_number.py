@@ -1,4 +1,6 @@
 import random
+from files.Gtn_Player import Gtn_Player
+from files.Gtn_Computer import Gtn_Computer
 
 # 1.  Użytkownik ma zadeklarować czy zgaduje on, czy komputer
 # 1a. Jeżeli gra komputer, użytkownik musi zdeklarować liczbę;
@@ -11,7 +13,7 @@ def Guess_the_number(scope_of_min_numbers, scope_of_max_numbers):
     draw = random.randint(scope_of_min_numbers, scope_of_max_numbers)
     print('the number drawn was: ', draw)
 
-    
+
 if __name__ == '__main__':
     while True:
         try:
@@ -20,5 +22,20 @@ if __name__ == '__main__':
             break
         except ValueError or NameError:
             print("You should have given either an int")
+
+    while True:
+        try:
+            print('Do you want to play, or should the computer play?')
+            print('Select: You - y, Computer - c: ', end=' ')
+            selection = input(' ')
+
+            if 'y' == selection:
+                Gtn_Player()
+            if 'c' == selection: # letter c
+                Gtn_Computer()
+            break
+        except NameError:
+            print("wrong choice")
+
 
 Guess_the_number(scope_of_min_numbers, scope_of_max_numbers)
