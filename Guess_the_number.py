@@ -1,6 +1,6 @@
 # from files.Gtn_Player import Guess_the_numberP
 # from files.Gtn_Computer import guess_the_numberC
-from files import Gtn_Computer
+from files import Gtn_Computer, Gtn_Player
 
 # 1a. Jeżeli gra komputer, użytkownik musi zdeklarować liczbę;
 # 1b. W ciągu 10 ruchów użytkownik podaje komputerowi czy wylosował za dużo czy za mało;
@@ -18,8 +18,8 @@ if __name__ == '__main__':
             if 'c' == selection:
                 Gtn_Computer.guess_the_numberC()
 
-            # if 'c' == selection:
-            #     files.Guess_the_numberC()
+            if 'y' == selection:
+                Gtn_Player.guess_the_numberC()
 
             break
         except NameError:
