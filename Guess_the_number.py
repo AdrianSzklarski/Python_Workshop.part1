@@ -1,10 +1,5 @@
 from files import Gtn_Computer, Gtn_Player
 
-# 1a. Jeżeli gra komputer, użytkownik musi zdeklarować liczbę;
-# 1b. W ciągu 10 ruchów użytkownik podaje komputerowi czy wylosował za dużo czy za mało;
-# 3. W każdym przypadku program ma obsłużyć możliwe błędy gry;
-# 4. Gra ma być zaimpelmentowana we Flasku
-
 if __name__ == '__main__':
     while True:
         try:
