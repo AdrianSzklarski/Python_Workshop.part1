@@ -1,14 +1,8 @@
-*** Guess the number [in progress]: ***
+*** Guess the number [Finish]: ***
 
-0. the user declares the range of numbers to play;
-1. the user is to declare whether he or the computer is guessing
-1a. If the computer is playing, the user has to declare the number;
-1b. Within 10 moves, the user tells the computer whether it has drawn too many or too few;
-2a. If the user plays the message "too many", "too few", "you won", "the number given is out of range" appears;
-3. in each case the program is to handle possible game errors;
-4. the game is to be implemented in Flash;
-
-
+Gra w zgadywanie liczb od 1 do 100 w dziesięciu ruchach:
+c - gra Komputer;
+y - gra Gracz;
 
 
 
