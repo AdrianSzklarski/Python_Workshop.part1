@@ -1,9 +1,8 @@
 *** Guess the number [Finish]: ***
 
-Gra w zgadywanie liczb od 1 do 100 w dziesięciu ruchach:
-c - gra Komputer;
-y - gra Gracz;
-
+A game of guessing numbers from 1 to 100 in ten moves:
+c - Computer game;
+y - the Player game;
 
 
 *** Dice [in progress]: *** 
@@ -40,19 +39,7 @@ Types of dice used in games: D3, D4, D6, D8, D10, D12, D20, D100;
 
 *** Lotto [in progress]: ***
 
-Big Dart, Small Dart and Mulilot Simulator:
-
-Write a program that:
-
-queries for typed numbers, while checking the following conditions:
-whether the entered string is a valid number,
-whether the user has not entered this number before,
-whether the number belongs to the range 1-46, 1-49, 1-80;
-after entering a sufficient number of numbers, it will sort them in ascending order and display them on the screen,
-draws numbers from the range and displays them on the screen,
-it will inform the player how many numbers he got;
-
-
+Lotto: Small [1-42], Big [1-49] and Multi [1-80]
 
 
 
