@@ -37,9 +37,9 @@ Types of dice used in games: D3, D4, D6, D8, D10, D12, D20, D100;
 
 
 
-*** Lotto [in progress]: ***
+*** Lotto [Finish]: ***
 
-Lotto: Small [1-42], Big [1-49] and Multi [1-80]
+Mini lottery, drawing 5 numbers out of 42. 
 
 
 
