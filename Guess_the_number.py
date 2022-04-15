@@ -25,6 +25,6 @@ if __name__ == '__main__':
 
             break
         except NameError:
-            print("wrong choice")
+            print("Wrong choice, try agian")
 
 
