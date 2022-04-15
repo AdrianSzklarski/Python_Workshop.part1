@@ -1,9 +1,9 @@
 """     Adrian SZKLARSKI, 04.2022r,
                 Lotto:
 
-    Returns:      drawing 5 numbers out of 42.
-    Parameters:   5 numbers int
-    Error:        NameError and ValueError
+    Returns:      drawing 5 numbers out of 42,
+    Parameters:   5 numbers int,
+    Error:        NameError and ValueError.
 """
 from files import MLotto
 
