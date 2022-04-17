@@ -1,3 +1,114 @@
+<h2 align="center"><a name="Up">Table of contents</a></h2> 
+<ol>
+<li><p><a href="#Task1">Guess the number</a></p>   
+<li><p><a href="#Task2">Dice</a></p>     
+<li><p><a href="#Task3">Lotto</a></p>    
+<li><p><a href="#Task3">Game 2001</a></p>    
+</ol>
+
+<h2 align="center">Purpose of the task</h2>
+<p>The primary goal of the programs written in the workshop is to learn programming in Python using the tools listed in . The content of the tasks was prepared by the CodersLab programming school. The authors have prepared different types of tasks to help mastering this skill. These are tasks that practice programming skills to basic to advanced methods. The written assignments are written by myself and were consulted with the class group mentor.<p>
+
+
+<h1 align="center">**<a name="Task1">Guess the number</a>**<a href="#Up"> Up </a></h1>  
+  
+## Technologies:
+<ul>
+<li><p>Python 3.9</p>
+<li><p>PyCharm</p>
+<li><p>Ubuntu</p>
+</ul>
+
+## Use of the programme:
+<p>........</p>
+
+## Author:
+Programme code written by A.Szklarski 12.2021r.
+
+
+<h1 align="center">**<a name="Task1">Dice</a>**<a href="#Up"> Up </a></h1>  
+  
+## Technologies:
+<ul>
+<li><p>Python 3.9</p>
+<li><p>PyCharm</p>
+<li><p>Ubuntu</p>
+</ul>
+
+## Use of the programme:
+<p>........</p>
+
+## Author:
+Programme code written by A.Szklarski 01.2022r.
+
+
+<h1 align="center">**<a name="Task1">Lotto</a>**<a href="#Up"> Up </a></h1>  
+  
+## Technologies:
+<ul>
+<li><p>Python 3.9</p>
+<li><p>PyCharm</p>
+<li><p>Ubuntu</p>
+</ul>
+
+## Use of the programme:
+<p>........</p>
+
+## Author:
+Programme code written by A.Szklarski 01.2022r.
+
+
+<h1 align="center">**<a name="Task1">Game 2001</a>**<a href="#Up"> Up </a></h1>  
+  
+## Technologies:
+<ul>
+<li><p>Python 3.9</p>
+<li><p>PyCharm</p>
+<li><p>Ubuntu</p>
+</ul>
+
+## Use of the programme:
+<p>........</p>
+
+## Author:
+Programme code written by A.Szklarski 01.2022r.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *** Guess the number [Finish]: ***
 
 A game of guessing numbers from 1 to 100 in ten moves:
