@@ -3,7 +3,8 @@
 <li><p><a href="#Task1">Guess the number</a></p>   
 <li><p><a href="#Task2">Dice</a></p>     
 <li><p><a href="#Task3">Lotto</a></p>    
-<li><p><a href="#Task3">Game 2001</a></p>    
+<li><p><a href="#Task4">Game 2001</a></p>
+<li><p><a href="#Task5">Guess the number 2</a></p>   
 </ol>
 
 <h2 align="center">Purpose of the task</h2>
@@ -20,13 +21,15 @@
 </ul>
 
 ## Use of the programme:
-<p>........</p>
+<p>Number guessing game:
+1. The player chooses a number from 1 to 100, and in ten moves the computer must guess the number drawn. After each draw, the player suggests whether the computer has drawn too large or too small a number, or whether it has found the number it was looking for;
+2. This time the computer must guess the player's number according to the same rules as above. </p>
 
 ## Author:
 Programme code written by A.Szklarski 12.2021r.
 
 
-<h1 align="center">**<a name="Task1">Dice</a>**<a href="#Up"> Up </a></h1>  
+<h1 align="center">**<a name="Task2">Dice</a>**<a href="#Up"> Up </a></h1>  
   
 ## Technologies:
 <ul>
@@ -42,7 +45,7 @@ Programme code written by A.Szklarski 12.2021r.
 Programme code written by A.Szklarski 01.2022r.
 
 
-<h1 align="center">**<a name="Task1">Lotto</a>**<a href="#Up"> Up </a></h1>  
+<h1 align="center">**<a name="Task3">Lotto</a>**<a href="#Up"> Up </a></h1>  
   
 ## Technologies:
 <ul>
@@ -58,7 +61,7 @@ Programme code written by A.Szklarski 01.2022r.
 Programme code written by A.Szklarski 01.2022r.
 
 
-<h1 align="center">**<a name="Task1">Game 2001</a>**<a href="#Up"> Up </a></h1>  
+<h1 align="center">**<a name="Task4">Game 2001</a>**<a href="#Up"> Up </a></h1>  
   
 ## Technologies:
 <ul>
@@ -72,6 +75,22 @@ Programme code written by A.Szklarski 01.2022r.
 
 ## Author:
 Programme code written by A.Szklarski 01.2022r.
+
+
+<h1 align="center">**<a name="Task5">Guess the number 2</a>**<a href="#Up"> Up </a></h1>  
+  
+## Technologies:
+<ul>
+<li><p>Python 3.9</p>
+<li><p>PyCharm</p>
+<li><p>Ubuntu</p>
+</ul>
+
+## Use of the programme:
+<p>........</p>
+
+## Author:
+Programme code written by A.Szklarski 12.2021r.
 
 
 
