@@ -39,7 +39,16 @@ Programme code written by A.Szklarski 12.2021r.
 </ul>
 
 ## Use of the programme:
-<p>Under construction</p>
+<p>Under construction
+
+Function:
+accepts a code as a string in the parameter and recognizes all input data:
+type of dice,
+number of throws,
+modifier,
+if the given string is invalid, it will return an appropriate message,
+simulates the throws and returns the result.
+Types of dice used in games: D3, D4, D6, D8, D10, D12, D20, D100.</p>
 
 ## Author:
 Programme code written by A.Szklarski 01.2022r.
