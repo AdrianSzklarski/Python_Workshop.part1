@@ -17,6 +17,7 @@ def game_of_dice(TypeDices):
     for _ in TypeDices:
 
         div = TypeDices.split(' ')
+
         for i in div:  # Checking the mark and occurrences of the letter D
             finded = i.find('D')
             findedp = i.find('+')
@@ -49,6 +50,7 @@ def game_of_dice(TypeDices):
 
 
 def random_of_dice(): # Drawing and display of the drawn dice
+
     number_of_throws = str(random.randint(1, 5))
     sings_of_dice = random.choice(SINGS)
     modifier = str(random.randint(1, 10))
@@ -62,8 +64,8 @@ def random_of_dice(): # Drawing and display of the drawn dice
 
 
 def throws(tod, array): # Dice rolls
-    div = int(tod[1:])
 
+    div = int(tod[1:])
     suma = []
     for i in range(1, array[0] + 1):
         suma.append(array[0] * random.randint(1, div) + array[1]) # Mathematical formula: xDyy+zz
