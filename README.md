@@ -80,7 +80,14 @@ Programme code written by A.Szklarski 01.2022r.
 </ul>
 
 ## Use of the programme:
-<p>Under construction</p>
+<p>2001 - Rules of the Game
+Each player starts with 0 points.
+In his turn, a player rolls 2 dice (standard hex dice).
+The number of eyes thrown is added to the total points.
+Starting on the second turn:
+if the player throws a 7, he divides his number of points by this value discarding the fractional part,
+if he throws 11, he multiplies his current number of points by this value.
+The player who first reaches 2001 points wins.</p>
 
 ## Author:
 Programme code written by A.Szklarski 01.2022r.
