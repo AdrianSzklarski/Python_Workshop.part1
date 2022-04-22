@@ -39,9 +39,7 @@ Programme code written by A.Szklarski 12.2021r.
 </ul>
 
 ## Use of the programme:
-<p>Under construction
-
-Function:
+<p>Function:
 accepts a code as a string in the parameter and recognizes all input data:
 type of dice,
 number of throws,
