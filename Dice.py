@@ -67,16 +67,16 @@ def throws(tod, array): # Dice rolls
 
     div = int(tod[1:])
     suma = []
-    for i in range(1, array[0] + 1):
-        suma.append(array[0] * random.randint(1, div) + array[1]) # Mathematical formula: xDyy+zz
-    return suma
-
+    number_of = array[0]
+    for i in range(1, number_of + 1):
+        suma.append(array[0] * random.randint(1, div)) # Mathematical formula: xDyy+zz
+    return f'Results of throws : {suma}', f'Sum results of throws {sum(suma)+array[1]}'
 
 if __name__ == '__main__':
     try:
         rfd = random_of_dice()
         god = game_of_dice(str(rfd))
         su = throws(type_of_dice, rfd)
-        print('Results of throws : ', su, '\nSum results of throws  = ', sum(su))
+        print(su)
     except TypeError:
         print(f'Wrong value!')
