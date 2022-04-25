@@ -9,7 +9,7 @@ def game_of_dice(TypeDices):
     """
     Calculate dice roll from dice pattern.
 
-    :param str dice_code: dice pattern ex. `7D12-5`
+    :param str dice_code: dice pattern ex.`7D12-5`
 
     :return: dice roll value for proper dice pattern, `Wrong Input` text elsewhere
     """
