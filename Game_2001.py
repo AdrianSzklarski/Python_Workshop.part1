@@ -22,7 +22,7 @@ import time
 DICES = ("D3", "D4", "D6", "D8", "D10", "D12", "D20", "D100")
 
 
-def player(dices):
+def player(dices):  # player's choice of dice
     array_p = []
     for i in range(1, 3):
         while True:
@@ -37,7 +37,7 @@ def player(dices):
     return array_p
 
 
-def computer():
+def computer():  # dice selection by computer
     array_c = []
     for i in range(1, 3):
         array_c.append(random.choice(DICES))
@@ -50,12 +50,12 @@ def game(cp, cc):
     print(f'The player has selected the dice {cp}')
     print(f'The computer has drawn dice      {cc}')
 
-    cp_first_throw = cp[0][1:]
+    cp_first_throw = cp[0][1:]  # determining the number of mesh to play
     cp_second_throw = cp[1][1:]
     cc_first_throw = cc[0][1:]
     cc_second_throw = cc[1][1:]
 
-    points_player = 0
+    points_player = 0  # initial conditions
     sum_array_player = 0
     array_player = []
 
@@ -63,6 +63,7 @@ def game(cp, cc):
     sum_array_comp = 0
     array_comp = []
 
+    # first throw in the game
     first_points_player = random.randint(1, int(cp_first_throw)) + \
                           random.randint(1, int(cp_second_throw))
     first_points_computer = random.randint(1, int(cc_first_throw)) + \
@@ -71,12 +72,13 @@ def game(cp, cc):
     while (sum_array_player + first_points_player) < 2001 and (sum_array_comp + first_points_computer) < 2001:
 
         input('Push Enter: ')
+        #  more throws in the game
         roll_player = random.randint(1, int(cp_first_throw)) + \
                       random.randint(1, int(cp_second_throw))
         roll_computer = random.randint(1, int(cc_first_throw)) + \
                         random.randint(1, int(cc_second_throw))
 
-        if roll_player == 7:
+        if roll_player == 7:  # playing conditions for the player
             points_player //= 7
             array_player.append(points_player)
         elif roll_player == 11:
@@ -89,7 +91,7 @@ def game(cp, cc):
         print(f'Sum Player points: {sum_array_player}')
         time.sleep(0.5)
 
-        if roll_computer == 7:
+        if roll_computer == 7:  # gaming conditions for computer
             points_comp //= 7
             array_comp.append(points_comp)
         elif roll_computer == 11:
@@ -109,7 +111,7 @@ if __name__ == '__main__':
     chosse_play = player(DICES)
     chosse_comp = computer()
     res = game(chosse_play, chosse_comp)
-    if res[0] > 2001:
+    if res[0] > 2001:  # game score
         print('Player is VIN!')
     elif res[1]:
         print('Computer is VIN!')
